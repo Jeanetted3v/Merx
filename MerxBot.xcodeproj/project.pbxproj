@@ -11,6 +11,12 @@
 		1DC79A3E2785B309000A2570 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC79A3D2785B309000A2570 /* ContentView.swift */; };
 		1DC79A402785B311000A2570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC79A3F2785B311000A2570 /* Assets.xcassets */; };
 		1DC79A432785B311000A2570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC79A422785B311000A2570 /* Preview Assets.xcassets */; };
+		1DC79A4A2785B458000A2570 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC79A492785B458000A2570 /* MainView.swift */; };
+		1DC79A4C2785D2AC000A2570 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC79A4B2785D2AC000A2570 /* TabBarButtonView.swift */; };
+		1DD1DF552786DF1B00AE09A2 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1DF542786DF1B00AE09A2 /* AppStateManager.swift */; };
+		1DD1DF572787051000AE09A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1DF562787051000AE09A2 /* Extensions.swift */; };
+		1DD1DF5A2790498300AE09A2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1DF592790498300AE09A2 /* ProfileView.swift */; };
+		1DD1DF5D27904FCF00AE09A2 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1DF5C27904FCF00AE09A2 /* RoundedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		1DC79A3D2785B309000A2570 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DC79A3F2785B311000A2570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC79A422785B311000A2570 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DC79A492785B458000A2570 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1DC79A4B2785D2AC000A2570 /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
+		1DD1DF542786DF1B00AE09A2 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		1DD1DF562787051000AE09A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1DD1DF592790498300AE09A2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1DD1DF5C27904FCF00AE09A2 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,13 @@
 			children = (
 				1DC79A3B2785B309000A2570 /* MerxBotApp.swift */,
 				1DC79A3D2785B309000A2570 /* ContentView.swift */,
+				1DD1DF542786DF1B00AE09A2 /* AppStateManager.swift */,
+				1DD1DF58278F119000AE09A2 /* MainTabBar */,
+				1DD1DF5B2790499F00AE09A2 /* Profile */,
+				1DD1DF562787051000AE09A2 /* Extensions.swift */,
 				1DC79A3F2785B311000A2570 /* Assets.xcassets */,
 				1DC79A412785B311000A2570 /* Preview Content */,
+				1DD1DF5C27904FCF00AE09A2 /* RoundedImage.swift */,
 			);
 			path = MerxBot;
 			sourceTree = "<group>";
@@ -65,6 +82,23 @@
 				1DC79A422785B311000A2570 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DD1DF58278F119000AE09A2 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1DC79A492785B458000A2570 /* MainView.swift */,
+				1DC79A4B2785D2AC000A2570 /* TabBarButtonView.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		1DD1DF5B2790499F00AE09A2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1DD1DF592790498300AE09A2 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC79A4C2785D2AC000A2570 /* TabBarButtonView.swift in Sources */,
+				1DD1DF5D27904FCF00AE09A2 /* RoundedImage.swift in Sources */,
+				1DD1DF572787051000AE09A2 /* Extensions.swift in Sources */,
 				1DC79A3E2785B309000A2570 /* ContentView.swift in Sources */,
+				1DC79A4A2785B458000A2570 /* MainView.swift in Sources */,
 				1DC79A3C2785B309000A2570 /* MerxBotApp.swift in Sources */,
+				1DD1DF5A2790498300AE09A2 /* ProfileView.swift in Sources */,
+				1DD1DF552786DF1B00AE09A2 /* AppStateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

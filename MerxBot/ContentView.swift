@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    //initializing the class AppStateManager here. It lives here. Then parsed it into the environment of the MainView, which will link to all other views. 
+    @ObservedObject var mng: AppStateManager = AppStateManager()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        // initializing the MainView and pass in the environmental object
+        MainView().environmentObject(mng)
     }
 }
 
